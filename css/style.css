@@ -16,7 +16,7 @@ section.navbar-area {
 
 .menu-icon {
     margin-top: 20px;
-    padding-left: 45px;
+    padding-left: 105px;
 }
 
 /*Navbar*/
@@ -28,7 +28,7 @@ ul.nav-menu-list {
 
 .right-option {
     float: right;
-    margin-right: 45px;
+    margin-right: 105px;
 }
 
 .menu-icon i{
@@ -98,7 +98,7 @@ ul.nav-menu-list li i {
 }
 
 .product-content h5 {
-    padding-top: 5px;
+    padding-top: 10px;
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: normal;
@@ -318,10 +318,9 @@ nav ul li ul li a {
 	padding: 10px 20px;
 }
 nav ul li ul li a:hover {
-	background: #ebebeb;
-	border-left: 4px solid #3498db;
+    background: #ebebeb;
+    border-left: 4px solid #2c2c2c;
 }
-
 
 
 
@@ -474,3 +473,10 @@ input.search-control:focus {
 }
 /*Search area end*/
 
+
+
+/*Product*/
+.breadcrumb a{
+    text-decoration: none;
+}
+/*Product end*/
