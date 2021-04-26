@@ -352,7 +352,7 @@ nav ul li ul li a:hover {
     transition: all 1s ease;
 }
 .right_zero{
-	right: 0;
+	right: -15px;
 	top: 60px;
 	transition: all 1s ease;
 }
