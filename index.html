@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Fontawesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+      <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>ChillFit NYC</title>
+  </head>
+  <body>
+
+
+
+    <div class="main-area">
+
+
+
+<!-- Search Drawer area -->
+<section class="nav-search-area">
+  <div class="search-container">
+    <div class="inner-search">
+      <form action="#">
+        <div class="input-group search-group">
+          <span class="input-group-text icon-part"><i class="fas fa-search"></i></span>
+          <input type="text" class="form-control search-control" placeholder="Search chillfitnyc.com">
+          <span class="input-group-text icon-part dismiss-search"><img src="images/times-light.svg" alt="cancel"></span>
+        </div>
+      </form>
+    </div>  
+  </div>
+</section>
+<!-- Search Drawer area  End-->
+
+
+
+
+
+      <!-- Navbar -->
+        <section class="navbar-area sticky-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="side-menu">
+                  <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="main-logo">
+                  <a href="#">
+                    <img src="images/logo.main.svg" alt="Site Logo">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="right-option">
+                  <ul class="nav-menu-list">
+                    <li class="nav-shopping"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="nav-search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                    <li class="nav-user"><a href="#"><i class="fas fa-user"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Navbar End-->
+
+
+
+
+        <!-- Drawer Menu LeftSide -->
+        <section class="leftdrawer" id="drawer">
+          <div class="inner-drawer">
+            <nav class='animated bounceInDown d_n'>
+              <ul>
+                <li><a href='#'>Homepage</a></li>
+                <li class='sub-menu'><a href='#'>Ready to wear<div class='fa fa-caret-down right'></div></a>
+                  <ul>
+                    <li><a href='#'>Matched Set</a></li>
+                    <li><a href='#'>Luxury Bodysuit</a></li>
+                    <li><a href='#'>LED Rave Tutu</a></li>
+                  </ul>
+                </li>
+                <li class='sub-menu'><a href='#'>Accessories<div class='fa fa-caret-down right'></div></a>
+                  <ul>
+                    <li><a href='#'>Face Sticker</a></li>
+                    <li><a href='#'>Glitter Set</a></li>
+                    <li><a href='#'>LED Pecifier</a></li>
+                    <li><a href='#'>LED Cuff</a></li>
+                  </ul>
+                </li>
+                <li><a href='#'>Gift Package</a></li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <!-- Drawer Menu LEftSide End -->
+
+
+
+
+<!-- Right Drawer -->
+  <div class="user-drawer" id="user-drawer">
+    <div class="user-drawer-container">
+      <div class="login-form-container">
+        <div class="user-inner-drawer"> 
+            <div class="login-title">
+        <h5>Your Account</h5>
+      </div>         
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password*</label>
+            <input type="password" class="form-control cmn-control" id="exampleInputPassword1">
+          </div>
+
+
+            <div class="row g-3">
+              <div class="col">
+                <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                </div>
+                <div class="col forget_p">
+                  <a href="#">Forget Password?</a>
+              </div>
+            </div>
+
+          <button type="submit" class="btn btn-login btn-common">Login</button>
+
+
+        </form>
+
+        <hr>
+        <div class="no-account">
+          <div class="no-acc-title">
+            <h5>Don't have an account?</h5>
+            <span>Create an account with us for future convenience!</span>
+          </div>
+          <div class="conv-list">
+            <ul>
+              <li><span><i class="fas fa-heart"> </i></span> &nbsp; Create a Wish List</li>
+              <li><span><i class="fas fa-shopping-bag"></i> </span> &nbsp; Receive Newsletters from ChillFit</li>
+              <li><span><i class="fas fa-cog"></i></span> &nbsp; Manage Account Information</li>
+              <li><span><i class="fas fa-undo"></i></span> &nbsp; Order Details & Returns</li>
+              
+            </ul>
+          </div>
+          <div class="read-privacy">
+            <span>Please read ChillFit <a href="#">Privacy Policy</a> before sign up.</span>
+          </div>
+
+          <div class="create-now-btn">
+            <a href="#" class="btn btn-common">Create Now</a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>    
+<!-- Right Drawer End -->
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Home slider -->
+      <section class="home-video mt-5">
+        <div class="container">
+          <div class="video-loader">
+            <video autoplay muted>
+              <!-- <source src="videos/video.mp4" type="video/mp4"> -->
+            </video>
+          </div>
+        </div>
+      </section>
+      <!-- Home slider End -->
+
+
+
+
+  <!-- Born to stand out -->
+  <section class="born-to-stand-out">
+    <div class="container">
+      <div class="standout-title mt-5 mb-5">
+        <h3 class="text-center">You were born to stand out</h3>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-box">
+            <div class="product-img ver-img">
+              <img src="images/Rectangle 5.png" alt="Product Image">
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="product-image">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="product-image mt-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+  </section>
+  <!-- Born to stand out end -->
+
+
+
+
+
+
+
+
+  <!-- PACIFIER OF A KIND -->
+  <section class="pacifier-area mt-5 mb-5">
+    <div class="container">
+      <div class="pacifier-title mt-5 mb-5">
+        <h3 class="text-center">Pacifier Of a Kind</h3>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-box">
+            <div class="product-img ver-img">
+              <img src="images/Rectangle 5.png" alt="Product Image">
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="product-image">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="product-image mt-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-box">
+                <div class="product-img product-img-mini">
+                  <img src="images/Rectangle 5.png" alt="Product Image">
+                </div>
+                <div class="product-content">
+                  <h5>Product Name</h5>
+                  <span>$price</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div> 
+      </div>
+
+    </div>
+  </section>
+  <!-- PACIFIER OF A KIND END -->
+
+
+
+
+<!-- Contact Area -->
+<section class="contact-area">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-title">
+            <h5>Contact Us</h5>
+          </div>
+          <div class="contact-content">
+            <p>Monday to Friday: 9 am - 6 pm ET</p>
+            <p>Email Us:</p>
+            <p>help@chillfitnyc.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-title">
+            <h5>MORE TO THE BEAT OFCHILLFIT</h5>
+            <span>Never miss out the latest trends and get updates</span>
+          </div>
+          <div class="contact-content mt-3">
+            <div class="subscribe-form">
+              <form action="#">
+                <input type="text" class="form-control subscribe-control" placeholder="Please Enter Your Email*" required>
+
+                <div class="security-check">
+                  <span>Security Check*</span>
+
+                    <div class="recaptcha-wrapper">
+                                        <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-check">
+                        <input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
+                        <label class="form-check-label" for="FieldsetCheck">
+                          I'm not a robot
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="recaptcha-icon">
+                        <img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+                <div class="subscribe-btn">
+                  <button type="submit" class="btn subscribe-btn">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="follow-us">
+            <div class="follow-us-title">
+              <h5>Follow Us</h5>
+            </div>
+            <div class="follow-us-content">
+              <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Area End -->
+
+
+<!-- Footer Main -->
+<section class="footer">
+  <div class="container">
+    <div class="inner-footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Service</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Customization</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Order</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund & Exchange</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>The Company</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Join Us</a></li>
+              <li><a href="#">Follow us on Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Legal</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Term & Conditions</a></li>
+              <li><a href="#">Privacy & Cookies</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Main End -->
+
+
+<!-- Footer Bottom -->
+<section class="footer-bottom">
+  <div class="container">
+    <div class="footer-copytight">
+      <p>&copy;ChillFit2021 All Rights Reserved</p>
+    </div>
+  </div>
+</section>
+<!-- Footer Bottom End -->
+
+
+
+
+    </div>
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script language="JavaScript" type="text/javascript" src="js/custom.js"></script>
+
+
+
+  </body>
+</html>
