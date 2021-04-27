@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Fontawesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+      <!-- Register Input with flag -->
+      <link rel="stylesheet" href="css/register/intlTelInput.css">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Register css -->
+    <link rel="stylesheet" href="css/register/register.css">
+
+
+    <title>ChillFit NYC</title>
+  </head>
+  <body>
+
+
+
+<div class="main-area">
+
+
+
+<!-- Search Drawer area -->
+<section class="nav-search-area">
+  <div class="search-container">
+    <div class="inner-search">
+      <form action="#">
+        <div class="input-group search-group">
+          <span class="input-group-text icon-part"><i class="fas fa-search"></i></span>
+          <input type="text" class="form-control search-control" placeholder="Search chillfitnyc.com">
+          <span class="input-group-text icon-part dismiss-search"><img src="images/times-light.svg" alt="cancel"></span>
+        </div>
+      </form>
+    </div>  
+  </div>
+</section>
+<!-- Search Drawer area  End-->
+
+
+
+
+
+<!-- Navbar -->
+<section class="navbar-area sticky-top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="side-menu">
+          <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="main-logo">
+          <a href="#">
+            <img src="images/ChillFit_Logo_white.svg" alt="Site Logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="right-option">
+          <ul class="nav-menu-list">
+            <li class="nav-shopping">
+              <a href="#">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+              <div class="item-count">
+                <span>3</span>
+              </div>
+            </li>
+            <li class="nav-search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+            <li class="nav-user"><a href="#"><i class="fas fa-user"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Navbar End-->
+
+
+
+
+<!-- Drawer Menu LeftSide -->
+<section class="leftdrawer" id="drawer">
+  <div class="inner-drawer">
+    <nav class='animated bounceInDown d_n'>
+      <ul>
+        <li><a href='#'>Homepage</a></li>
+        <li class='sub-menu'><a href='#'>Ready to wear<div class='fa fa-caret-down right'></div></a>
+          <ul>
+            <li><a href='#'>Matched Set</a></li>
+            <li><a href='#'>Luxury Bodysuit</a></li>
+            <li><a href='#'>LED Rave Tutu</a></li>
+          </ul>
+        </li>
+        <li class='sub-menu'><a href='#'>Accessories<div class='fa fa-caret-down right'></div></a>
+          <ul>
+            <li><a href='#'>Face Sticker</a></li>
+            <li><a href='#'>Glitter Set</a></li>
+            <li><a href='#'>LED Pecifier</a></li>
+            <li><a href='#'>LED Cuff</a></li>
+          </ul>
+        </li>
+        <li><a href='#'>Gift Package</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<!-- Drawer Menu LEftSide End -->
+
+
+
+
+<!-- Right Drawer -->
+  <div class="user-drawer" id="user-drawer">
+    <div class="user-drawer-container">
+      <div class="login-form-container">
+        <div class="user-inner-drawer"> 
+            <div class="login-title">
+        <h5>Your Account</h5>
+      </div>         
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password*</label>
+            <input type="password" class="form-control cmn-control" id="exampleInputPassword1">
+          </div>
+
+
+            <div class="row g-3">
+              <div class="col">
+                <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                </div>
+                <div class="col forget_p">
+                  <a href="#">Forget Password?</a>
+              </div>
+            </div>
+
+          <button type="submit" class="btn btn-login btn-common">Login</button>
+
+
+        </form>
+
+        <hr>
+        <div class="no-account">
+          <div class="no-acc-title">
+            <h5>Don't have an account?</h5>
+            <span>Create an account with us for future convenience!</span>
+          </div>
+          <div class="conv-list">
+            <ul>
+              <li><span><i class="fas fa-heart"> </i></span> &nbsp; Create a Wish List</li>
+              <li><span><i class="fas fa-shopping-bag"></i> </span> &nbsp; Receive Newsletters from ChillFit</li>
+              <li><span><i class="fas fa-cog"></i></span> &nbsp; Manage Account Information</li>
+              <li><span><i class="fas fa-undo"></i></span> &nbsp; Order Details & Returns</li>
+              
+            </ul>
+          </div>
+          <div class="read-privacy">
+            <span>Please read ChillFit <a href="#">Privacy Policy</a> before sign up.</span>
+          </div>
+
+          <div class="create-now-btn">
+            <a href="#" class="btn btn-common">Create Now</a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>    
+<!-- Right Drawer End -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Register Section -->
+<div class="section login-area">
+  <div class="container">
+    <div class="inner-login">
+
+      <div class="login-form-container">
+        <div class="user-inner-drawer"> 
+            <div class="login-title">
+        <h5>Sign Up</h5>
+      </div>         
+        <form>
+
+          <div class="mb-3">
+            <label for="firstname" class="form-label">First Name*</label>
+            <input type="text" class="form-control cmn-control" id="firstname">
+          </div>
+
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Last Name*</label>
+            <input type="text" class="form-control cmn-control" id="lastname">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="email">
+          </div>
+
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Mobile Number*</label> <br>
+            <input id="phone" class="form-control cmn-control" name="phone" type="tel">
+          </div>
+
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password*</label>
+            <input type="password" class="form-control cmn-control" id="password">
+          </div>
+
+          <div class="mb-3">
+            <label for="confirm_password" class="form-label">Confirm Password*</label>
+            <input type="password" class="form-control cmn-control" id="confirm_password">
+          </div>
+
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+              <label for="confirm_password" class="form-label">Birthday*</label><br>
+
+              <label for="confirm_password" class="form-label">Month</label>
+              <select class="form-select cmn-control">
+             
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+
+              <label for="confirm_password" class="form-label">Day</label>
+                <input type="text" name="" class="form-control cmn-control"  value="1" id="month">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+                  <label for="confirm_password" class="form-label">Year</label>
+                <input type="text" name="" class="form-control cmn-control" value="2021" id="confirm_password">
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <button type="submit" class="btn btn-login btn-common">Create Now</button>
+        </form>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<!-- Register Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Contact Area -->
+<section class="contact-area">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-title">
+            <h5>Contact Us</h5>
+          </div>
+          <div class="contact-content">
+            <p>Monday to Friday: 9 am - 6 pm ET</p>
+            <p>Email Us:</p>
+            <p><a href="mailto:help@chillfitnyc.com">help@chillfitnyc.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-title">
+            <h5>MORE TO THE BEAT OFCHILLFIT</h5>
+            <span>Never miss out the latest trends and get updates</span>
+          </div>
+          <div class="contact-content mt-3">
+            <div class="subscribe-form">
+              <form action="#">
+                <input type="text" class="form-control subscribe-control" placeholder="Please Enter Your Email*" required>
+
+                <div class="security-check">
+                  <span>Security Check*</span>
+
+                    <div class="recaptcha-wrapper">
+                                        <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-check">
+                        <input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
+                        <label class="form-check-label" for="FieldsetCheck">
+                          I'm not a robot
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="recaptcha-icon">
+                        <img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+                <div class="subscribe-btn">
+                  <button type="submit" class="btn subscribe-btn">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="follow-us">
+            <div class="follow-us-title">
+              <h5>Follow Us</h5>
+            </div>
+            <div class="follow-us-content">
+              <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Area End -->
+
+
+<!-- Footer Main -->
+<section class="footer">
+  <div class="container">
+    <div class="inner-footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Service</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Customization</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Order</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund & Exchange</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>The Company</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Join Us</a></li>
+              <li><a href="#">Follow us on Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-services">
+            <div class="service-title">
+              <h5>Legal</h5>
+            </div>
+            <ul class="footer-list">
+              <li><a href="#">Term & Conditions</a></li>
+              <li><a href="#">Privacy & Cookies</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Main End -->
+
+
+<!-- Footer Bottom -->
+<section class="footer-bottom">
+  <div class="container">
+    <div class="footer-copytight">
+      <p>&copy;&nbsp;ChillFit2021 All Rights Reserved</p>
+    </div>
+  </div>
+</section>
+<!-- Footer Bottom End -->
+
+
+
+
+    </div>
+   <script src="build/js/intlTelInput.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  
+  <!-- Flag input for register -->
+  <script src="js/register/intlTelInput-jquery.js"></script> 
+
+  <script language="JavaScript" type="text/javascript" src="js/custom.js"></script>
+
+  <script src="js/register/intlTelInput.js"></script>
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "js/register/utils.js",
+    });
+  </script>
+
+  </body>
+</html>

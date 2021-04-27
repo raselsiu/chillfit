@@ -84,8 +84,6 @@ ul.nav-menu-list {
 
 
 .d_n{
-/*	opacity: 0;
-	display: none;*/
 
 	width: 0px;
 	margin-left: -200px;
@@ -170,18 +168,7 @@ ul.nav-menu-list li i {
     font-weight: 500;
 }
 
-/*video {
-    object-fit: cover;
-}*/
-/*video {
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
+
 section.contact-area {
     background-color: #fff;
 }
@@ -346,7 +333,7 @@ nav ul {
 	padding: 0;
 }
 nav ul li {
-  /* Sub Menu */
+  
 }
 nav ul li a {
 	display: block;
@@ -404,6 +391,11 @@ nav ul li ul li a:hover {
 }
 
 /*Drawer Menu End*/
+
+
+
+
+
 
 
 /*User-Drawer*/
@@ -546,3 +538,12 @@ input.search-control:focus {
     text-decoration: none;
 }
 /*Product end*/
+
+
+/*Login Page*/
+.inner-login {
+    width: 450px;
+    display: table;
+    margin: 0 auto;
+}
+/*Login Page end*/
