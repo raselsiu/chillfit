@@ -1,10 +1,50 @@
+/*
+Neue Kabel Bold
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+font-family: neue-kabel, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Neue Kabel Bold Italic
+
+font-family: neue-kabel, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Neue Kabel Italic
+
+font-family: neue-kabel, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Neue Kabel Regular
+
+font-family: neue-kabel, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;*/
+
+
+
+
+
+@import url("https://use.typekit.net/grk1pie.css");
 body{
-	background-color: #F4F0EB;
-	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	width: 100%;
+    font-style: normal;
+	font-family: neue-kabel, sans-serif;
+	background-color: #F4F0EB;
 }
 
 
@@ -16,7 +56,7 @@ section.navbar-area {
 
 .menu-icon {
     margin-top: 20px;
-    padding-left: 105px;
+    padding-left: 50px;
 }
 
 /*Navbar*/
@@ -28,13 +68,19 @@ ul.nav-menu-list {
 
 .right-option {
     float: right;
-    margin-right: 105px;
+    margin-right: 50px;
 }
 
 .menu-icon i{
     cursor: pointer;
 }
 
+
+
+.standout-title h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
 
 .d_n{
@@ -53,21 +99,22 @@ ul.nav-menu-list {
 
 
 
-
-
-
-.product-img-mini img{
-	width: 100%;
-	height: 250px;
+.pacifier-title h3 {
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 
-
-.ver-img img{
-	width: 100%;
-	height: 570px;
+.product-img-mini img {
+    width: 100%;
+    height: 262px;
 }
 
+
+.ver-img img {
+    width: 100%;
+    height: 600px;
+}
 
 .main-logo {
     margin: 0 auto;
@@ -83,8 +130,13 @@ ul.nav-menu-list li {
 }
 	
 .main-logo img {
-    height: 60px;
-    padding-top: 0px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.pad_zero{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 section.navbar-area {
@@ -92,16 +144,30 @@ section.navbar-area {
 }
 .menu-icon i {
     color: #D9D9D9;
+    font-size: 20px;
 }
 ul.nav-menu-list li i {
     color: #D9D9D9;
+}
+.item-count span {
+    background: #d9d9d9;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    color: #2c2c2c;
+    top: 6px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .product-content h5 {
     padding-top: 10px;
     margin-bottom: 5px;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 /*video {
@@ -192,7 +258,7 @@ button.subscribe-btn {
     border: 0;
     background-color: #434343;
     color: #fff;
-    padding: 5px 66px;
+    padding: 5px 95px;
     border-radius: 10px;
     display: table;
     font-size: 18px;
@@ -212,7 +278,9 @@ section.footer {
 }
 .footer h5 {
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 ul.footer-list{
@@ -248,14 +316,11 @@ section.footer-bottom {
     float: right;
 }
 
-
-.video-loader{
-
-	width: 100%;
-	height: 350px;
-	background-color: #fff;
+.video-loader {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
 }
-
 
 
 .contact-content a{
@@ -294,6 +359,7 @@ nav ul li a {
 	-ms-transition: 0.2s linear;
 	-o-transition: 0.2s linear;
 	transition: 0.2s linear;
+    font-size:18px;
 }
 nav ul li a:hover {
 	background: #f8f8f8;
@@ -399,7 +465,7 @@ nav ul li ul li a:hover {
     font-size: 13px;
 }
 .conv-list {
-    padding: 15px 0;
+    padding: 0px 0px 15px 0;
 }
 .conv-list ul{
 	margin: 0;
