@@ -58,7 +58,9 @@ section.navbar-area {
     margin-top: 20px;
     padding-left: 50px;
 }
-
+.paddb_80{
+    padding-bottom: 80px;
+}
 /*Navbar*/
 ul.nav-menu-list {
     list-style: none;
@@ -75,6 +77,10 @@ ul.nav-menu-list {
     cursor: pointer;
 }
 
+.nav-shopping i,
+.nav-user i{
+    cursor: pointer;
+}
 
 
 .standout-title h3 {
@@ -93,6 +99,7 @@ ul.nav-menu-list {
 
 .animated{
 	transition: all 1s ease;
+    overflow: auto;
 }
 
 
@@ -267,7 +274,6 @@ section.footer {
     color: #fff;
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
 }
 
 ul.footer-list{
@@ -322,15 +328,17 @@ section.footer-bottom {
 /*Drawer Menu*/
 nav {
     position: fixed;
-    width: 300px;
+    width: 400px;
     height: 100vh;
     background: #fff;
     z-index: 99999;
+    padding-bottom: 100px;
 }
 nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+    padding-top: 30px;
 }
 nav ul li {
   
@@ -338,7 +346,7 @@ nav ul li {
 nav ul li a {
 	display: block;
 	background: #fff;
-	padding: 10px 15px;
+    padding: 11px 70px;
 	color: #333;
 	text-decoration: none;
 	-webkit-transition: 0.2s linear;
@@ -360,15 +368,16 @@ nav ul li a .fa {
 }
 nav ul ul {
     background-color: #ffffff;
+    padding-top: 0;
 }
 li.sub-menu ul li {
     margin-left: 23px;
     background: #fff;
 }
 nav ul li ul li a {
-	background: #fff;
-	border-left: 4px solid transparent;
-	padding: 10px 20px;
+    background: #fff;
+    border-left: 4px solid transparent;
+    padding: 10px 105px;
 }
 nav ul li ul li a:hover {
     background: #ebebeb;
@@ -406,16 +415,21 @@ nav ul li ul li a:hover {
     width: 400px;
     background: #F8F8F8;
     overflow: auto;
+
     transition: all 1s ease;
+}
+.user-inner-drawer{
+        padding: 30px;
+}
+.reset-pass-inner{
+        padding: 30px;
 }
 .right_zero{
 	right: -15px;
 	top: 60px;
 	transition: all 1s ease;
 }
-.user-inner-drawer{
-	padding: 30px;
-}
+
 .login-title h5 {
     padding: 15px 0;
     font-size: 22px;
@@ -547,3 +561,61 @@ input.search-control:focus {
     margin: 0 auto;
 }
 /*Login Page end*/
+
+
+
+
+/*Reset Sidebar Form*/
+.reset-title-sub p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #757575;
+}
+/*Reset Sidebar Form End*/
+
+
+
+/*Shopcart list*/
+.shopping-cart-side-title h5 {
+    padding: 20px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.shopping-cart-sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.shopping-cart-sidebar ul li:hover {
+    background-color: #ededed;
+    transition: all 0.5s ease;
+}
+.shopping-cart-sidebar ul li a{
+    text-decoration: none;
+    color: #3D3D3D;
+}
+.shopping-cart-sidebar ul li {
+    padding: 10px;
+    padding-left: 80px;
+}
+.shopping-cart-list{
+    padding-bottom: 80px;
+}
+/*Shopcart list End*/
+
+
+
+
+/*Sidebar Sign Up Drawer Content*/
+.sidebar-sign-up{
+    padding: 30px;
+}
+.view_pass {
+    float: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.terms label{
+    color: #3D3D3D;
+}
+/*Sidebar Sign Up Drawer Content End*/

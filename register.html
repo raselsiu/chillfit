@@ -129,6 +129,8 @@
 <!-- Right Drawer -->
   <div class="user-drawer" id="user-drawer">
     <div class="user-drawer-container">
+
+
       <div class="login-form-container">
         <div class="user-inner-drawer"> 
             <div class="login-title">
@@ -148,7 +150,7 @@
             <div class="row g-3">
               <div class="col">
                 <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
+                <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
                 </div>
@@ -158,8 +160,6 @@
             </div>
 
           <button type="submit" class="btn btn-login btn-common">Login</button>
-
-
         </form>
 
         <hr>
@@ -185,9 +185,174 @@
             <a href="#" class="btn btn-common">Create Now</a>
           </div>
         </div>
-
-
         </div>
+
+
+
+
+
+
+
+
+      <!-- Reset Password section -->
+      <div class="reset-password-container mb-5">
+        <div class="reset-pass-inner">
+          <div class="reset-title-sub">
+            <h5>Reset Password</h5>
+            <p>Forgot your password? Please enter the email address that you used when creating your account.</p>
+          </div>
+          <hr>
+          <div class="reset-content-form">
+            <form action="">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" class="form-control cmn-control" id="email" placeholder="example@chillfitnyc.com">
+              </div>
+              <button type="submit" class="btn btn-common">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Reset Password section End -->
+
+
+
+
+
+
+      <!-- Shopping Cart List -->
+      <div class="shopping-cart-list">
+        <div class="shopping-cart-sidebar">
+          <div class="shopping-cart-side-title">
+            <h5>Your bag is empty</h5>
+          </div>
+          <hr class="border-bottom-custom">
+          <ul>
+            <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
+            <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
+            <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
+            <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Shopping Cart ListEnd -->
+
+
+
+
+
+<!-- Sign Up Sidebar -->
+<div class="sign-up-area-sidebar paddb_80">
+  <div class="sidebar-sign-up">
+    <div class="sidebar-signup-title">
+      <h5>Sign up</h5>
+    </div>
+    <div class="sidebar-sign-up-form">
+      <form action="">
+                  <div class="mb-3">
+            <label for="firstname" class="form-label">First Name*</label>
+            <input type="text" class="form-control cmn-control" id="firstname">
+          </div>
+
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Last Name*</label>
+            <input type="text" class="form-control cmn-control" id="lastname">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="email">
+          </div>
+
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number*</label> <br>
+            <input id="phone" class="form-control cmn-control" name="phone" type="tel">
+            <div id="emailHelp" class="form-text">Change country code by taping the flag.</div>
+
+          </div>
+
+
+          <div class="mb-3">
+            <div class="row">
+              <div class="col"><label for="password" class="form-label">Password*</label></div>
+              <div class="col"><div class="view_pass">View</div></div>
+            </div>
+            <input type="password" class="form-control cmn-control" id="password">
+            <div id="password" class="form-text">Minimum of 6 characters.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="confirm_password" class="form-label">Confirm Password*</label>
+            <input type="password" class="form-control cmn-control" id="confirm_password">
+          </div>
+
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+              <label for="confirm_password" class="form-label">Birthday*</label><br>
+
+              <label for="confirm_password" class="form-label">Month</label>
+              <select class="form-select cmn-control">
+             
+                <option selected>-Select-</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+
+              <label for="confirm_password" class="form-label">Day</label>
+                <input type="text" name="" class="form-control cmn-control" placeholder="DD">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+                  <label for="confirm_password" class="form-label">Year</label>
+                <input type="text" name="" class="form-control cmn-control" placeholder="YYYY" id="confirm_password">
+              </div>
+            </div>
+
+              <div class="form-check terms">
+                <input type="checkbox" class="form-check-input check_mod" id="term_agree">
+                <label class="form-check-label" for="term_agree">
+                  I acknowledge that I have read the Privacy policy and agree to the term of use.
+                </label>
+              </div>
+
+          </div>
+
+
+
+          <button type="submit" class="btn btn-login btn-common">Create Now</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Sign Up Sidebar End -->
+
+
+
+
+
+
+
+
       </div>
     </div>
   </div>    
@@ -213,7 +378,7 @@
             <div class="login-title">
         <h5>Sign Up</h5>
       </div>         
-        <form>
+        <form action="">
 
           <div class="mb-3">
             <label for="firstname" class="form-label">First Name*</label>
@@ -233,7 +398,7 @@
 
           <div class="mb-3">
             <label for="phone" class="form-label">Mobile Number*</label> <br>
-            <input id="phone" class="form-control cmn-control" name="phone" type="tel">
+            <input id="phone_number" class="form-control cmn-control" name="phone" type="tel">
             <div id="emailHelp" class="form-text">Change country code by taping the flag.</div>
 
           </div>
@@ -509,6 +674,34 @@
   <script src="js/register/intlTelInput.js"></script>
   <script>
     var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "js/register/utils.js",
+    });
+  </script>
+
+
+  <script>
+    var input = document.querySelector("#phone_number");
     window.intlTelInput(input, {
       // allowDropdown: false,
       // autoHideDialCode: false,
