@@ -26,13 +26,12 @@ $('li.nav-user i').click(function () {
 });
 
 
+/*Shoppning Drawer Show*/
 
-
-
-
-
-
-
+$('li.nav-shopping i').click(function () {
+    $('.shopping-cart-drawer').toggleClass('overlay');
+    $('.shopping-cart-drawer-container').toggleClass('right_zero');
+});
 
 
 
@@ -52,25 +51,27 @@ $('.dismiss-search img').click(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  
   $( function() {
     $( ".menu-icon i" ).on( "click", function() {
       $( ".menu-icon i" ).toggleClass( "fa-times", 100 );
     });
+
   } );
 
+ 
+  $( function() {
+    $( "li.nav-shopping i" ).on( "click", function() {
+      $( "li.nav-shopping i" ).toggleClass( "fa-times", 100 );
+      $( ".item-count").toggleClass('d-none');
+    });
+    
+  } );
+
+
+
+
 }); 
+
+
 
