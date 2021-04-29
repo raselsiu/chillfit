@@ -35,7 +35,9 @@ font-weight: 400;
 font-style: normal;*/
 
 
-
+:root {
+  --text_color_primary:#3D3D3D;
+}
 
 
 @import url("https://use.typekit.net/grk1pie.css");
@@ -45,6 +47,7 @@ body{
     font-style: normal;
 	font-family: neue-kabel, sans-serif;
 	background-color: #F4F0EB;
+
 }
 
 
@@ -100,6 +103,7 @@ ul.nav-menu-list {
 .standout-title h3 {
     font-weight: 400;
     text-transform: uppercase;
+    color: var(--text_color_primary);
 }
 
 
@@ -121,6 +125,7 @@ ul.nav-menu-list {
 .pacifier-title h3 {
     font-weight: 400;
     text-transform: uppercase;
+    color: var(--text_color_primary);
 }
 
 .product-img-mini img {
@@ -184,6 +189,7 @@ ul.nav-menu-list li i {
 .product-content h5 {
     padding-top: 10px;
     margin-bottom: 5px;
+    color: var(--text_color_primary);
     font-size: 16px;
     font-weight: 500;
 }
@@ -197,7 +203,7 @@ section.contact-area {
 }
 .contact-title h5 {
     font-size: 21px;
-    color: #3D3D3D;
+    color: var(--text_color_primary);
     font-weight: normal;
 }
 .follow-us-title h5 {
@@ -221,7 +227,11 @@ section.contact-area {
     padding: 0;
     font-size: 18px;
 }
+.subscribe-control::placeholder{
+    color: #757575;
+}
 .contact-title span {
+    color: var(--text_color_primary);
     font-size: 14px;
 }
 
@@ -264,7 +274,7 @@ section.contact-area {
 button.subscribe-btn {
     border: 0;
     background-color: #434343;
-    color: #fff;
+    color: #FEFFFE;
     padding: 5px 95px;
     border-radius: 10px;
     display: table;
