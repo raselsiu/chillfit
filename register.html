@@ -19,6 +19,7 @@
 
     <!-- Register css -->
     <link rel="stylesheet" href="css/register/register.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 
     <title>ChillFit NYC</title>
@@ -126,6 +127,176 @@
 
 
 
+
+
+
+
+
+
+
+  <!-- shopping-cart-drawer-->
+  <div class="shopping-cart-drawer" id="shopping-cart-drawer">
+    <div class="shopping-cart-drawer-container">
+    <div class="shopping-cart-inner-drawer">
+      <button class="btn btn-common margin_t_b_zero">Clear Cart</button>
+
+
+      <div class="drawer-cart-item-list">
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col_35">
+
+            <div class="cart-product-img">
+              <img src="images/product-item.jpg" alt="Cart Item">
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="cart-product-content">
+              <div class="cart-product-title">
+                <span>Product Name</span>
+              </div>
+              <div class="cart-product-subtitle">
+                <p>Quantity: X</p>
+                <p>Sizes: XX/X</p>
+                <p>Sizes: $36.25</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-2 col_15">
+            <div class="clear-cart-item">
+              <span>
+                <img src="images/cancel.svg" alt="Clear">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="drawer-cart-item-list">
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col_35">
+
+            <div class="cart-product-img">
+              <img src="images/product-item.jpg" alt="Cart Item">
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="cart-product-content">
+              <div class="cart-product-title">
+                <span>Product Name</span>
+              </div>
+              <div class="cart-product-subtitle">
+                <p>Quantity: X</p>
+                <p>Sizes: XX/X</p>
+                <p>Sizes: $36.25</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-2 col_15">
+            <div class="clear-cart-item">
+              <span>
+                <img src="images/cancel.svg" alt="Clear">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+      <!-- Shopping cart calculation -->
+
+      <div class="shopping-cart-drawer-calculation-list">
+        <div class="row">
+          <div class="col-md-6 col_50_50">
+            <div class="sub-total">
+              <p>Sub-total</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="sub-calculation-value">
+              <p>$36.25</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_65">
+            <div class="sub-total">
+              <p>Estimated Shipping</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_35">
+            <div class="sub-calculation-value">
+              <p>Free</p>
+            </div>
+          </div>
+          <div class="col-md-4 col_20">
+            <div class="sub-total">
+              <p>Tax</p>
+            </div>
+          </div>
+          <div class="col-md-8 col_80">
+            <div class="sub-calculation-value tx">
+              <p>Calculated during checkout</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_65">
+            <div class="sub-total">
+              <p>Estimated total</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_35">
+            <div class="sub-calculation-value">
+              <p>$36.15</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-common">Checkout</button>
+      </div>
+      <hr>
+
+      <!-- Shopping cart calculation -->
+
+
+       <!-- Shopping Cart List -->
+          <div class="shopping-cart-list">
+            <div class="shopping-cart-sidebar">
+              <ul>
+                <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
+                <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
+                <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
+                <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Shopping Cart ListEnd -->
+    </div>
+    </div>
+  </div>
+
+
+
+  <!-- shopping-cart-drawer End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Right Drawer -->
   <div class="user-drawer" id="user-drawer">
     <div class="user-drawer-container">
@@ -144,6 +315,9 @@
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password*</label>
             <input type="password" class="form-control cmn-control" id="exampleInputPassword1">
+                            <div class="invalid-feedback">
+                 <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, email or password is incorrect.
+                </div>
           </div>
 
 
@@ -241,6 +415,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Sign Up Sidebar -->
 <div class="sign-up-area-sidebar paddb_80">
   <div class="sidebar-sign-up">
@@ -249,19 +437,27 @@
     </div>
     <div class="sidebar-sign-up-form">
       <form action="">
-                  <div class="mb-3">
+          <div class="mb-3">
             <label for="firstname" class="form-label">First Name*</label>
             <input type="text" class="form-control cmn-control" id="firstname">
+
           </div>
 
           <div class="mb-3">
             <label for="lastname" class="form-label">Last Name*</label>
             <input type="text" class="form-control cmn-control" id="lastname">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, no # or special characters for name
+            </div>
           </div>
 
           <div class="mb-3">
             <label for="email" class="form-label">Email*</label>
             <input type="email" class="form-control cmn-control" id="email">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, email is not in correct format
+            </div>
+
           </div>
 
 
@@ -269,6 +465,9 @@
             <label for="phone" class="form-label">Phone Number*</label> <br>
             <input id="phone" class="form-control cmn-control" name="phone" type="tel">
             <div id="emailHelp" class="form-text">Change country code by taping the flag.</div>
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, phone number is not in correct format
+            </div>
 
           </div>
 
@@ -280,11 +479,20 @@
             </div>
             <input type="password" class="form-control cmn-control" id="password">
             <div id="password" class="form-text">Minimum of 6 characters.</div>
+
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, password is not in correct format
+            </div>
           </div>
 
           <div class="mb-3">
             <label for="confirm_password" class="form-label">Confirm Password*</label>
             <input type="password" class="form-control cmn-control" id="confirm_password">
+
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;confirm password do not match
+            </div>
+
           </div>
 
 
@@ -327,6 +535,9 @@
                 <input type="text" name="" class="form-control cmn-control" placeholder="YYYY" id="confirm_password">
               </div>
             </div>
+             <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, this date does not exist
+            </div>
 
               <div class="form-check terms">
                 <input type="checkbox" class="form-check-input check_mod" id="term_agree">
@@ -334,6 +545,10 @@
                   I acknowledge that I have read the Privacy policy and agree to the term of use.
                 </label>
               </div>
+                <div class="invalid-feedback">
+                 <span><img src="images/warning.svg" alt=""></span>&nbsp;Please agree the Privacy policy & term of use.
+                </div>
+
 
           </div>
 
@@ -374,7 +589,7 @@
     <div class="inner-login">
 
       <div class="login-form-container">
-        <div class="user-inner-drawer"> 
+        <div class="user-inner-page-login"> 
             <div class="login-title">
         <h5>Sign Up</h5>
       </div>         
@@ -388,11 +603,19 @@
           <div class="mb-3">
             <label for="lastname" class="form-label">Last Name*</label>
             <input type="text" class="form-control cmn-control" id="lastname">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>Opps, no # or special characters for name
+            </div>
           </div>
 
           <div class="mb-3">
             <label for="email" class="form-label">Email*</label>
             <input type="email" class="form-control cmn-control" id="email">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>Opps, email is not in correct format
+            </div>
+
+            
           </div>
 
 
@@ -400,6 +623,9 @@
             <label for="phone" class="form-label">Mobile Number*</label> <br>
             <input id="phone_number" class="form-control cmn-control" name="phone" type="tel">
             <div id="emailHelp" class="form-text">Change country code by taping the flag.</div>
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>Opps, phone number is not in correct format
+            </div>
 
           </div>
 
@@ -407,11 +633,19 @@
           <div class="mb-3">
             <label for="password" class="form-label">Password*</label>
             <input type="password" class="form-control cmn-control" id="password">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>Opps, password is not in correct format
+            </div>
+
+
           </div>
 
           <div class="mb-3">
             <label for="confirm_password" class="form-label">Confirm Password*</label>
             <input type="password" class="form-control cmn-control" id="confirm_password">
+                        <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>confirm password do not match
+            </div>
           </div>
 
 
@@ -454,6 +688,10 @@
               </div>
             </div>
 
+             <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>Opps, this date does not exist
+            </div>
+
           </div>
 
 
@@ -477,111 +715,74 @@
 
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Contact Area -->
-<section class="contact-area">
-  <div class="container">
-    <div class="contact-inner">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="contact-title">
-            <h5>Contact Us</h5>
+  <!-- Contact Area -->
+  <section class="contact-area">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="row">
+          <div class="col-md-4 col_30">
+            <div class="contact-area-left">
+              <div class="contact-title">
+              <h5>Contact Us</h5>
+            </div>
+            <div class="contact-content">
+              <p>Monday to Friday: 9 am - 6 pm ET</p>
+              <p>Email Us:</p>
+              <p><a href="mailto:help@chillfitnyc.com">help@chillfitnyc.com</a></p>
+            </div>
+            </div>
           </div>
-          <div class="contact-content">
-            <p>Monday to Friday: 9 am - 6 pm ET</p>
-            <p>Email Us:</p>
-            <p><a href="mailto:help@chillfitnyc.com">help@chillfitnyc.com</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="contact-title">
-            <h5>MORE TO THE BEAT OFCHILLFIT</h5>
-            <span>Never miss out the latest trends and get updates</span>
-          </div>
-          <div class="contact-content mt-3">
-            <div class="subscribe-form">
-              <form action="#">
-                <input type="text" class="form-control subscribe-control" placeholder="Please Enter Your Email*" required>
-
-                <div class="security-check">
-                  <span>Security Check*</span>
-
+          <div class="col-md-4 col_50">
+            <div class="contact-title">
+              <h5>MORE TO THE BEAT OFCHILLFIT</h5>
+              <span>Never miss out the latest trends and get updates</span>
+            </div>
+            <div class="contact-content mt-3">
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" class="form-control subscribe-control" placeholder="Please Enter Your Email*" required>
+                  <div class="security-check">
+                    <span>Security Check*</span>
                     <div class="recaptcha-wrapper">
-                                        <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-check">
-                        <input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
-                        <label class="form-check-label" for="FieldsetCheck">
-                          I'm not a robot
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="recaptcha-icon">
-                        <img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
+                      <div class="row">
+                        <div class="col-md-6 col_50_50">
+                          <div class="form-check">
+                            <input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
+                            <label class="form-check-label" for="FieldsetCheck">
+                              I'm not a robot
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col_50_50">
+                          <div class="recaptcha-icon">
+                            <img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                    </div>
-                </div>
-                <div class="subscribe-btn">
-                  <button type="submit" class="btn subscribe-btn">Subscribe</button>
-                </div>
-              </form>
+                  <div class="subscribe-btn">
+                    <button type="submit" class="btn subscribe-btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="follow-us">
-            <div class="follow-us-title">
-              <h5>Follow Us</h5>
-            </div>
-            <div class="follow-us-content">
-              <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+          <div class="col-md-4 col_20">
+            <div class="follow-us">
+              <div class="follow-us-title">
+                <h5>Follow Us</h5>
+              </div>
+              <div class="follow-us-content">
+                <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Contact Area End -->
+  </section>
+  <!-- Contact Area End -->
 
 
 <!-- Footer Main -->
@@ -643,6 +844,92 @@
   </div>
 </section>
 <!-- Footer Main End -->
+
+
+
+
+
+
+
+
+
+<!-- Footer Main Menu Mobile -->
+<section class="footer-mobile-menu">
+  <div class="mobile-footer-inner">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <span>Services</span>
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Customization</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span>Order</span>
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund & Exchange</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span>The Company</span>
+        </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Follow Us</a></li>
+              <li><a href="#">Join us on Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        <span>Legal</span>
+        </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Term & Conditions</a></li>
+              <li><a href="#">Privacy & Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Main Menu Mobile  End-->
+
+
+
+
+
 
 
 <!-- Footer Bottom -->

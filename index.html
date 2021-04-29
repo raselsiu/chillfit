@@ -78,6 +78,18 @@
 			<section class="leftdrawer" id="drawer">
 				<div class="inner-drawer">
 					<nav class='animated bounceInDown d_n'>
+						<!-- Mobile Search Bar -->
+						<div class="mobile_search visibility_mobile_search">
+							<div class="mobile-inner-search">
+								<form action="">
+									<div class="input-group">
+									  <span class="input-group-text mobile-search-input-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+									  <input type="text" class="form-control mobile-search-control" placeholder="Search chillfitnyc.com">
+									</div>
+								</form>
+							</div>
+						</div>	
+						<!-- Mobile Search Bar End -->	
 						<ul>
 							<li><a href='#'>Homepage</a></li>
 							<li class='sub-menu'><a href='#'>Ready to wear<div class='fa fa-caret-down right'></div></a>
@@ -180,145 +192,141 @@
 	<!-- Right Drawer -->
 	<div class="shopping-cart-drawer" id="shopping-cart-drawer">
 		<div class="shopping-cart-drawer-container">
-				<div class="shopping-cart-inner-drawer">
-					<button class="btn btn-common margin_t_b_zero">Clear Cart</button>
+		<div class="shopping-cart-inner-drawer">
+			<button class="btn btn-common margin_t_b_zero">Clear Cart</button>
 
 
-					<div class="drawer-cart-item-list">
-						<hr>
-						<div class="row">
-							<div class="col-md-4">
+			<div class="drawer-cart-item-list">
+				<hr>
+				<div class="row">
+					<div class="col-md-4 col_35">
 
-								<div class="cart-product-img">
-									<img src="images/product-item.jpg" alt="Cart Item">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="cart-product-content">
-									<div class="cart-product-title">
-										<span>Product Name</span>
-									</div>
-									<div class="cart-product-subtitle">
-										<p>Quantity: X</p>
-										<p>Sizes: XX/X</p>
-										<p>Sizes: $36.25</p>
-									</div>
-
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="clear-cart-item">
-									<span>
-										<img src="images/cancel.svg" alt="Clear">
-									</span>
-								</div>
-							</div>
+						<div class="cart-product-img">
+							<img src="images/product-item.jpg" alt="Cart Item">
 						</div>
 					</div>
-					
-					<div class="drawer-cart-item-list">
-						<hr>
-						<div class="row">
-							<div class="col-md-4">
+					<div class="col-md-6 col_50_50">
+						<div class="cart-product-content">
+							<div class="cart-product-title">
+								<span>Product Name</span>
+							</div>
+							<div class="cart-product-subtitle">
+								<p>Quantity: X</p>
+								<p>Sizes: XX/X</p>
+								<p>Sizes: $36.25</p>
+							</div>
 
-								<div class="cart-product-img">
-									<img src="images/product-item.jpg" alt="Cart Item">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="cart-product-content">
-									<div class="cart-product-title">
-										<span>Product Name</span>
-									</div>
-									<div class="cart-product-subtitle">
-										<p>Quantity: X</p>
-										<p>Sizes: XX/X</p>
-										<p>Sizes: $36.25</p>
-									</div>
-
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="clear-cart-item">
-									<span>
-										<img src="images/cancel.svg" alt="Clear">
-									</span>
-								</div>
-							</div>
 						</div>
 					</div>
-					<hr>
-
-
-					<!-- Shopping cart calculation -->
-
-					<div class="shopping-cart-drawer-calculation-list">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="sub-total">
-									<p>Sub-total</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="sub-calculation-value">
-									<p>$36.25</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="sub-total">
-									<p>Estimated Shipping</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="sub-calculation-value">
-									<p>Free</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="sub-total">
-									<p>Tax</p>
-								</div>
-							</div>
-							<div class="col-md-8">
-								<div class="sub-calculation-value tx">
-									<p>Calculated during checkout</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="sub-total">
-									<p>Estimated total</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="sub-calculation-value">
-									<p>$36.15</p>
-								</div>
-							</div>
+					<div class="col-md-2 col_15">
+						<div class="clear-cart-item">
+							<span>
+								<img src="images/cancel.svg" alt="Clear">
+							</span>
 						</div>
-						<button class="btn btn-common">Checkout</button>
 					</div>
-					<hr>
-
-					<!-- Shopping cart calculation -->
-
-
-					 <!-- Shopping Cart List -->
-				      <div class="shopping-cart-list">
-				        <div class="shopping-cart-sidebar">
-				          <ul>
-				            <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
-				            <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
-				            <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
-				            <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
-				          </ul>
-				        </div>
-				      </div>
-				      <!-- Shopping Cart ListEnd -->
-
-
-
-
 				</div>
+			</div>
+			
+			<div class="drawer-cart-item-list">
+				<hr>
+				<div class="row">
+					<div class="col-md-4 col_35">
+
+						<div class="cart-product-img">
+							<img src="images/product-item.jpg" alt="Cart Item">
+						</div>
+					</div>
+					<div class="col-md-6 col_50_50">
+						<div class="cart-product-content">
+							<div class="cart-product-title">
+								<span>Product Name</span>
+							</div>
+							<div class="cart-product-subtitle">
+								<p>Quantity: X</p>
+								<p>Sizes: XX/X</p>
+								<p>Sizes: $36.25</p>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-2 col_15">
+						<div class="clear-cart-item">
+							<span>
+								<img src="images/cancel.svg" alt="Clear">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+
+			<!-- Shopping cart calculation -->
+
+			<div class="shopping-cart-drawer-calculation-list">
+				<div class="row">
+					<div class="col-md-6 col_50_50">
+						<div class="sub-total">
+							<p>Sub-total</p>
+						</div>
+					</div>
+					<div class="col-md-6 col_50_50">
+						<div class="sub-calculation-value">
+							<p>$36.25</p>
+						</div>
+					</div>
+					<div class="col-md-6 col_65">
+						<div class="sub-total">
+							<p>Estimated Shipping</p>
+						</div>
+					</div>
+					<div class="col-md-6 col_35">
+						<div class="sub-calculation-value">
+							<p>Free</p>
+						</div>
+					</div>
+					<div class="col-md-4 col_20">
+						<div class="sub-total">
+							<p>Tax</p>
+						</div>
+					</div>
+					<div class="col-md-8 col_80">
+						<div class="sub-calculation-value tx">
+							<p>Calculated during checkout</p>
+						</div>
+					</div>
+					<div class="col-md-6 col_65">
+						<div class="sub-total">
+							<p>Estimated total</p>
+						</div>
+					</div>
+					<div class="col-md-6 col_35">
+						<div class="sub-calculation-value">
+							<p>$36.15</p>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-common">Checkout</button>
+			</div>
+			<hr>
+
+			<!-- Shopping cart calculation -->
+
+
+			 <!-- Shopping Cart List -->
+		      <div class="shopping-cart-list">
+		        <div class="shopping-cart-sidebar">
+		          <ul>
+		            <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
+		            <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
+		            <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
+		            <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		      <!-- Shopping Cart ListEnd -->
+		</div>
 		</div>
 	</div>
 
@@ -353,13 +361,17 @@
 					<div class="image-box">
 						<div class="product-img ver-img">
 							<img src="images/Rectangle 5.png" alt="Product Image">
+							<div class="product-content ver_content">
+								<h5>Product Name</h5>
+								<span>$price</span>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="product-image">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -370,7 +382,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -385,7 +397,7 @@
 					</div>
 					<div class="product-image mt-3">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -396,7 +408,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -427,13 +439,18 @@
 					<div class="image-box">
 						<div class="product-img ver-img">
 							<img src="images/Rectangle 5.png" alt="Product Image">
+							<div class="product-content ver_content">
+								<h5>Product Name</h5>
+								<span>$price</span>
+							</div>
 						</div>
+
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="product-image">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -444,7 +461,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -459,7 +476,7 @@
 					</div>
 					<div class="product-image mt-3">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -470,7 +487,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col_50_50">
 								<div class="image-box">
 									<div class="product-img product-img-mini">
 										<img src="images/Rectangle 5.png" alt="Product Image">
@@ -495,7 +512,7 @@
 		<div class="container">
 			<div class="contact-inner">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col_30">
 						<div class="contact-area-left">
 							<div class="contact-title">
 							<h5>Contact Us</h5>
@@ -507,7 +524,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col_50">
 						<div class="contact-title">
 							<h5>MORE TO THE BEAT OFCHILLFIT</h5>
 							<span>Never miss out the latest trends and get updates</span>
@@ -520,7 +537,7 @@
 										<span>Security Check*</span>
 										<div class="recaptcha-wrapper">
 											<div class="row">
-												<div class="col-md-6">
+												<div class="col-md-6 col_50_50">
 													<div class="form-check">
 														<input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
 														<label class="form-check-label" for="FieldsetCheck">
@@ -528,7 +545,7 @@
 														</label>
 													</div>
 												</div>
-												<div class="col-md-6">
+												<div class="col-md-6 col_50_50">
 													<div class="recaptcha-icon">
 														<img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
 													</div>
@@ -543,7 +560,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col_20">
 						<div class="follow-us">
 							<div class="follow-us-title">
 								<h5>Follow Us</h5>

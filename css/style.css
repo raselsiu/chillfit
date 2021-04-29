@@ -76,7 +76,12 @@ ul.nav-menu-list {
     float: left;
     margin: 0;
 }
-
+.ver_content{
+    display: none;
+}
+.ver_content {
+    padding-bottom: 30px;
+}
 .right-option {
     float: right;
     margin-right: 50px;
@@ -118,12 +123,10 @@ ul.nav-menu-list {
     text-transform: uppercase;
 }
 
-
 .product-img-mini img {
-    width: 100%;
+    width: 262px;
     height: 262px;
 }
-
 
 .ver-img img {
     width: 100%;
@@ -162,6 +165,7 @@ section.navbar-area {
 }
 ul.nav-menu-list li i {
     color: #D9D9D9;
+    cursor: pointer;
 }
 .item-count span {
     background: #d9d9d9;
@@ -395,7 +399,7 @@ nav ul li ul li a:hover {
 
 
 
-.overlay {
+/*.overlay {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     top: 0;
@@ -403,7 +407,7 @@ nav ul li ul li a:hover {
     bottom: 0;
     right: 0;
     z-index: 99;
-}
+}*/
 .mt_60 {
     margin-top: 60px;
 }
@@ -507,8 +511,12 @@ nav ul li ul li a:hover {
 /*User-Drawer End*/
 
 
-
-
+.accordion-collapse{
+    transition: 0.5s;
+}
+.form-check.terms {
+    padding-left: 36px;
+}
 
 
 /*Shopping cart list drawer*/
@@ -769,3 +777,52 @@ input.search-control:focus {
     color: #757575;
 }
 /*Checkout price  end*/
+
+
+/*Mobile Search Area*/
+input.mobile-search-control {
+    border: 0;
+    border-bottom: 1px solid #ededed;
+    border-radius: 0;
+    color: #272727;
+    padding: 2px 8px;
+    font-size:18px;
+    line-height: 2.2;
+}
+input.mobile-search-control::placeholder{
+    color: #D9D9D9;
+    font-size: 18px;
+}
+input.mobile-search-control:focus {
+ outline: none;
+ box-shadow: none;
+ border-color: #ededed;
+}
+
+span.mobile-search-input-text {
+    background: #fff;
+    border: 0;
+    border-bottom: 1px solid #ededed;
+    padding: 3px 0px 4px 12px;
+    color: #9fa3a7;
+    border-radius: 0;
+}
+.visibility_mobile_search{
+    display: none;
+}
+/*Mobile Search Area End*/
+
+
+/*Form validation set*/
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #FF1C50;
+}
+.invalid-feedback span img {
+    height: 25px;
+    width: 25px;
+
+/*Form validation set end*/

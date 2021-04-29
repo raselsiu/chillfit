@@ -36,10 +36,11 @@ $('li.nav-shopping i').click(function () {
 
 
 /*Search */
-$('li.nav-search i').click(function () {
-    $('.nav-search-area').toggleClass('overlay');
-    $('.nav-search-area').toggleClass('top_zero');
-});
+
+// $('li.nav-search i').click(function () {
+//     $('.nav-search-area').toggleClass('overlay');
+//     $('.nav-search-area').toggleClass('top_zero');
+// });
 
 
 $('.dismiss-search img').click(function () {
@@ -71,7 +72,24 @@ $('.dismiss-search img').click(function () {
 
 
 
+
+
 }); 
 
 
+
+$(document).ready(function() {    
+   $('li.nav-search i').click(function(e) {
+        $( ".nav-search-area" ).addClass('overlay top_zero');
+        e.stopPropagation();
+   });
+
+   $(document.body).click(function() {
+        $( ".nav-search-area" ).removeClass( "overlay top_zero" )
+   });
+
+   $('.nav-search-area').click(function(e) {
+        e.stopPropagation();
+   });
+});
 
