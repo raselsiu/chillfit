@@ -19,6 +19,10 @@
 	.home-video,li.nav-user,li.nav-search,.footer,.contact-area-left,.follow-us{
 		display: none;
 	}
+	.image-box {
+	    display: table;
+	    margin: 0 auto;
+	}
 
 
 	.inner-login {

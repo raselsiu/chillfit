@@ -50,8 +50,6 @@ $('.dismiss-search img').click(function () {
 /*Search  End*/
 
 
-
-
  
   $( function() {
     $( ".menu-icon i" ).on( "click", function() {
@@ -92,4 +90,10 @@ $(document).ready(function() {
         e.stopPropagation();
    });
 });
+
+
+
+
+
+
 

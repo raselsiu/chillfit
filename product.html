@@ -4,154 +4,571 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
     <!-- Fontawesome 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+
+      <!-- Register Input with flag -->
+      <link rel="stylesheet" href="css/register/intlTelInput.css">
+
     <!-- Style css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Register css -->
+    <link rel="stylesheet" href="css/register/register.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
     <title>ChillFit NYC</title>
   </head>
   <body>
-    <div class="main-area">
-      <!-- Search Drawer area -->
-      <section class="nav-search-area">
-        <div class="search-container">
-          <div class="inner-search">
-            <form action="#">
-              <div class="input-group search-group">
-                <span class="input-group-text icon-part"><i class="fas fa-search"></i></span>
-                <input type="text" class="form-control search-control" placeholder="Search chillfitnyc.com">
-                <span class="input-group-text icon-part dismiss-search"><img src="images/times-light.svg" alt="cancel"></span>
-              </div>
-            </form>
+
+
+
+<div class="main-area">
+
+
+
+<!-- Search Drawer area -->
+<section class="nav-search-area">
+  <div class="search-container">
+    <div class="inner-search">
+      <form action="#">
+        <div class="input-group search-group">
+          <span class="input-group-text icon-part"><i class="fas fa-search"></i></span>
+          <input type="text" class="form-control search-control" placeholder="Search chillfitnyc.com">
+          <span class="input-group-text icon-part dismiss-search"><img src="images/times-light.svg" alt="cancel"></span>
+        </div>
+      </form>
+    </div>  
+  </div>
+</section>
+<!-- Search Drawer area  End-->
+
+
+
+
+
+<!-- Navbar -->
+<section class="navbar-area sticky-top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="side-menu">
+          <div class="menu-icon">
+            <i class="fas fa-bars"></i>
           </div>
         </div>
-      </section>
-      <!-- Search Drawer area  End-->
-      <!-- Navbar -->
-      <section class="navbar-area sticky-top">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="side-menu">
-                <div class="menu-icon">
-                  <i class="fas fa-bars"></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="main-logo">
-                <a href="#">
-                  <img src="images/ChillFit_Logo_white.svg" alt="Site Logo">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="right-option">
-                <ul class="nav-menu-list">
-                  <li class="nav-shopping">
-                    <a href="#">
-                      <i class="fas fa-shopping-bag"></i>
-                    </a>
-                    <div class="item-count">
-                      <span>3</span>
-                    </div>
-                  </li>
-                  <li class="nav-search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
-                  <li class="nav-user"><a href="#"><i class="fas fa-user"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="main-logo">
+          <a href="#">
+            <img src="images/ChillFit_Logo_white.svg" alt="Site Logo">
+          </a>
         </div>
-      </section>
-      <!-- Navbar End-->
-      <!-- Drawer Menu LeftSide -->
-      <section class="leftdrawer" id="drawer">
-        <div class="inner-drawer">
-          <nav class='animated bounceInDown d_n'>
-            <ul>
-              <li><a href='#'>Homepage</a></li>
-              <li class='sub-menu'><a href='#'>Ready to wear<div class='fa fa-caret-down right'></div></a>
-              <ul>
-                <li><a href='#'>Matched Set</a></li>
-                <li><a href='#'>Luxury Bodysuit</a></li>
-                <li><a href='#'>LED Rave Tutu</a></li>
-              </ul>
+      </div>
+
+      <div class="col-md-4">
+        <div class="right-option">
+          <ul class="nav-menu-list">
+            <li class="nav-shopping">
+              <a href="#">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+              <div class="item-count">
+                <span>3</span>
+              </div>
             </li>
-            <li class='sub-menu'><a href='#'>Accessories<div class='fa fa-caret-down right'></div></a>
-            <ul>
-              <li><a href='#'>Face Sticker</a></li>
-              <li><a href='#'>Glitter Set</a></li>
-              <li><a href='#'>LED Pecifier</a></li>
-              <li><a href='#'>LED Cuff</a></li>
-            </ul>
-          </li>
-          <li><a href='#'>Gift Package</a></li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-  <!-- Drawer Menu LEftSide End -->
-  <!-- Right Drawer -->
-  <div class="user-drawer" id="user-drawer">
-    <div class="user-drawer-container">
-      <div class="login-form-container">
-        <div class="user-inner-drawer">
-          <div class="login-title">
-            <h5>Your Account</h5>
-          </div>
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email*</label>
-              <input type="email" class="form-control cmn-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password*</label>
-              <input type="password" class="form-control cmn-control" id="exampleInputPassword1">
-            </div>
-            <div class="row g-3">
-              <div class="col">
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                </div>
-              </div>
-              <div class="col forget_p">
-                <a href="#">Forget Password?</a>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-login btn-common">Login</button>
-          </form>
-          <hr>
-          <div class="no-account">
-            <div class="no-acc-title">
-              <h5>Don't have an account?</h5>
-              <span>Create an account with us for future convenience!</span>
-            </div>
-            <div class="conv-list">
-              <ul>
-                <li><span><i class="fas fa-heart"> </i></span> &nbsp; Create a Wish List</li>
-                <li><span><i class="fas fa-shopping-bag"></i> </span> &nbsp; Receive Newsletters from ChillFit</li>
-                <li><span><i class="fas fa-cog"></i></span> &nbsp; Manage Account Information</li>
-                <li><span><i class="fas fa-undo"></i></span> &nbsp; Order Details & Returns</li>
-                
-              </ul>
-            </div>
-            <div class="read-privacy">
-              <span>Please read ChillFit <a href="#">Privacy Policy</a> before sign up.</span>
-            </div>
-            <div class="create-now-btn">
-              <a href="#" class="btn btn-common">Create Now</a>
-            </div>
-          </div>
+            <li class="nav-search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+            <li class="nav-user"><a href="#"><i class="fas fa-user"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Right Drawer End -->
+</section>
+<!-- Navbar End-->
+
+
+
+
+<!-- Drawer Menu LeftSide -->
+<section class="leftdrawer" id="drawer">
+  <div class="inner-drawer">
+    <nav class='animated bounceInDown d_n'>
+      <ul>
+        <li><a href='#'>Homepage</a></li>
+        <li class='sub-menu'><a href='#'>Ready to wear<div class='fa fa-caret-down right'></div></a>
+          <ul>
+            <li><a href='#'>Matched Set</a></li>
+            <li><a href='#'>Luxury Bodysuit</a></li>
+            <li><a href='#'>LED Rave Tutu</a></li>
+          </ul>
+        </li>
+        <li class='sub-menu'><a href='#'>Accessories<div class='fa fa-caret-down right'></div></a>
+          <ul>
+            <li><a href='#'>Face Sticker</a></li>
+            <li><a href='#'>Glitter Set</a></li>
+            <li><a href='#'>LED Pecifier</a></li>
+            <li><a href='#'>LED Cuff</a></li>
+          </ul>
+        </li>
+        <li><a href='#'>Gift Package</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<!-- Drawer Menu LEftSide End -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- shopping-cart-drawer-->
+  <div class="shopping-cart-drawer" id="shopping-cart-drawer">
+    <div class="shopping-cart-drawer-container">
+    <div class="shopping-cart-inner-drawer">
+      <button class="btn btn-common margin_t_b_zero">Clear Cart</button>
+
+
+      <div class="drawer-cart-item-list">
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col_35">
+
+            <div class="cart-product-img">
+              <img src="images/product-item.jpg" alt="Cart Item">
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="cart-product-content">
+              <div class="cart-product-title">
+                <span>Product Name</span>
+              </div>
+              <div class="cart-product-subtitle">
+                <p>Quantity: X</p>
+                <p>Sizes: XX/X</p>
+                <p>Sizes: $36.25</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-2 col_15">
+            <div class="clear-cart-item">
+              <span>
+                <img src="images/cancel.svg" alt="Clear">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="drawer-cart-item-list">
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col_35">
+
+            <div class="cart-product-img">
+              <img src="images/product-item.jpg" alt="Cart Item">
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="cart-product-content">
+              <div class="cart-product-title">
+                <span>Product Name</span>
+              </div>
+              <div class="cart-product-subtitle">
+                <p>Quantity: X</p>
+                <p>Sizes: XX/X</p>
+                <p>Sizes: $36.25</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-2 col_15">
+            <div class="clear-cart-item">
+              <span>
+                <img src="images/cancel.svg" alt="Clear">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+      <!-- Shopping cart calculation -->
+
+      <div class="shopping-cart-drawer-calculation-list">
+        <div class="row">
+          <div class="col-md-6 col_50_50">
+            <div class="sub-total">
+              <p>Sub-total</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_50_50">
+            <div class="sub-calculation-value">
+              <p>$36.25</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_65">
+            <div class="sub-total">
+              <p>Estimated Shipping</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_35">
+            <div class="sub-calculation-value">
+              <p>Free</p>
+            </div>
+          </div>
+          <div class="col-md-4 col_20">
+            <div class="sub-total">
+              <p>Tax</p>
+            </div>
+          </div>
+          <div class="col-md-8 col_80">
+            <div class="sub-calculation-value tx">
+              <p>Calculated during checkout</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_65">
+            <div class="sub-total">
+              <p>Estimated total</p>
+            </div>
+          </div>
+          <div class="col-md-6 col_35">
+            <div class="sub-calculation-value">
+              <p>$36.15</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-common">Checkout</button>
+      </div>
+      <hr>
+
+      <!-- Shopping cart calculation -->
+
+
+       <!-- Shopping Cart List -->
+          <div class="shopping-cart-list">
+            <div class="shopping-cart-sidebar">
+              <ul>
+                <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
+                <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
+                <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
+                <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Shopping Cart ListEnd -->
+    </div>
+    </div>
+  </div>
+
+
+
+  <!-- shopping-cart-drawer End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Right Drawer -->
+  <div class="user-drawer" id="user-drawer">
+    <div class="user-drawer-container">
+
+
+      <div class="login-form-container">
+        <div class="user-inner-drawer"> 
+            <div class="login-title">
+        <h5>Your Account</h5>
+      </div>         
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password*</label>
+            <input type="password" class="form-control cmn-control" id="exampleInputPassword1">
+                            <div class="invalid-feedback">
+                 <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, email or password is incorrect.
+                </div>
+          </div>
+
+
+            <div class="row g-3">
+              <div class="col">
+                <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input check_mod" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                </div>
+                <div class="col forget_p">
+                  <a href="#">Forget Password?</a>
+              </div>
+            </div>
+
+          <button type="submit" class="btn btn-login btn-common">Login</button>
+        </form>
+
+        <hr>
+        <div class="no-account">
+          <div class="no-acc-title">
+            <h5>Don't have an account?</h5>
+            <span>Create an account with us for future convenience!</span>
+          </div>
+          <div class="conv-list">
+            <ul>
+              <li><span><i class="fas fa-heart"> </i></span> &nbsp; Create a Wish List</li>
+              <li><span><i class="fas fa-shopping-bag"></i> </span> &nbsp; Receive Newsletters from ChillFit</li>
+              <li><span><i class="fas fa-cog"></i></span> &nbsp; Manage Account Information</li>
+              <li><span><i class="fas fa-undo"></i></span> &nbsp; Order Details & Returns</li>
+              
+            </ul>
+          </div>
+          <div class="read-privacy">
+            <span>Please read ChillFit <a href="#">Privacy Policy</a> before sign up.</span>
+          </div>
+
+          <div class="create-now-btn">
+            <a href="#" class="btn btn-common">Create Now</a>
+          </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+      <!-- Reset Password section -->
+      <div class="reset-password-container mb-5">
+        <div class="reset-pass-inner">
+          <div class="reset-title-sub">
+            <h5>Reset Password</h5>
+            <p>Forgot your password? Please enter the email address that you used when creating your account.</p>
+          </div>
+          <hr>
+          <div class="reset-content-form">
+            <form action="">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" class="form-control cmn-control" id="email" placeholder="example@chillfitnyc.com">
+              </div>
+              <button type="submit" class="btn btn-common">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Reset Password section End -->
+
+
+
+
+
+
+      <!-- Shopping Cart List -->
+      <div class="shopping-cart-list">
+        <div class="shopping-cart-sidebar">
+          <div class="shopping-cart-side-title">
+            <h5>Your bag is empty</h5>
+          </div>
+          <hr class="border-bottom-custom">
+          <ul>
+            <li><span><i class="fas fa-heart"></i></span>&nbsp; <a href="">Wishlist</a></li>
+            <li><span><i class="fas fa-shopping-bag"></i></span>&nbsp; <a href="">Orders</a></li>
+            <li><span><i class="fas fa-cog"></i></span>&nbsp; <a href="">Account</a></li>
+            <li><span><i class="fas fa-user"></i></span>&nbsp; <a href="">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Shopping Cart ListEnd -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Sign Up Sidebar -->
+<div class="sign-up-area-sidebar paddb_80">
+  <div class="sidebar-sign-up">
+    <div class="sidebar-signup-title">
+      <h5>Sign up</h5>
+    </div>
+    <div class="sidebar-sign-up-form">
+      <form action="">
+          <div class="mb-3">
+            <label for="firstname" class="form-label">First Name*</label>
+            <input type="text" class="form-control cmn-control" id="firstname">
+
+          </div>
+
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Last Name*</label>
+            <input type="text" class="form-control cmn-control" id="lastname">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, no # or special characters for name
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control cmn-control" id="email">
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, email is not in correct format
+            </div>
+
+          </div>
+
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number*</label> <br>
+            <input id="phone" class="form-control cmn-control" name="phone" type="tel">
+            <div id="emailHelp" class="form-text">Change country code by taping the flag.</div>
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, phone number is not in correct format
+            </div>
+
+          </div>
+
+
+          <div class="mb-3">
+            <div class="row">
+              <div class="col"><label for="password" class="form-label">Password*</label></div>
+              <div class="col"><div class="view_pass">View</div></div>
+            </div>
+            <input type="password" class="form-control cmn-control" id="password">
+            <div id="password" class="form-text">Minimum of 6 characters.</div>
+
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, password is not in correct format
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="confirm_password" class="form-label">Confirm Password*</label>
+            <input type="password" class="form-control cmn-control" id="confirm_password">
+
+            <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;confirm password do not match
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+              <label for="confirm_password" class="form-label">Birthday*</label><br>
+
+              <label for="confirm_password" class="form-label">Month</label>
+              <select class="form-select cmn-control">
+             
+                <option selected>-Select-</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+
+              <label for="confirm_password" class="form-label">Day</label>
+                <input type="text" name="" class="form-control cmn-control" placeholder="DD">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="mb-3">
+                  <label for="confirm_password" class="form-label">Year</label>
+                <input type="text" name="" class="form-control cmn-control" placeholder="YYYY" id="confirm_password">
+              </div>
+            </div>
+             <div class="invalid-feedback">
+             <span><img src="images/warning.svg" alt=""></span>&nbsp;Opps, this date does not exist
+            </div>
+
+              <div class="form-check terms">
+                <input type="checkbox" class="form-check-input check_mod" id="term_agree">
+                <label class="form-check-label" for="term_agree">
+                  I acknowledge that I have read the Privacy policy and agree to the term of use.
+                </label>
+              </div>
+                <div class="invalid-feedback">
+                 <span><img src="images/warning.svg" alt=""></span>&nbsp;Please agree the Privacy policy & term of use.
+                </div>
+
+
+          </div>
+
+
+
+          <button type="submit" class="btn btn-login btn-common">Create Now</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Sign Up Sidebar End -->
+
+      </div>
+    </div>
+  </div>    
+<!-- Right Drawer End -->
+
+
+
+
   <div class="breadcrumb mt-3">
     <div class="container">
       <div aria-label="breadcrumb">
@@ -162,6 +579,24 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Product List -->
   <section class="product-list mb-5">
     <div class="container">
@@ -171,7 +606,7 @@
         </div>
         <div class="product-list-area">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -182,7 +617,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -193,7 +628,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -204,7 +639,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -215,7 +650,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -226,7 +661,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -237,7 +672,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -248,7 +683,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col_50_50">
               <div class="image-box mb-5">
                 <div class="product-img product-img-mini">
                   <img src="images/Rectangle 5.png" alt="Product Image">
@@ -265,14 +700,28 @@
     </div>
   </section>
   <!-- Product List End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   <!-- Contact Area -->
   <section class="contact-area">
     <div class="container">
       <div class="contact-inner">
         <div class="row">
-          <div class="col-md-4">
-            <div class="contact-title">
+          <div class="col-md-4 col_30">
+            <div class="contact-area-left">
+              <div class="contact-title">
               <h5>Contact Us</h5>
             </div>
             <div class="contact-content">
@@ -280,8 +729,9 @@
               <p>Email Us:</p>
               <p><a href="mailto:help@chillfitnyc.com">help@chillfitnyc.com</a></p>
             </div>
+            </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col_50">
             <div class="contact-title">
               <h5>MORE TO THE BEAT OFCHILLFIT</h5>
               <span>Never miss out the latest trends and get updates</span>
@@ -294,7 +744,7 @@
                     <span>Security Check*</span>
                     <div class="recaptcha-wrapper">
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col_50_50">
                           <div class="form-check">
                             <input class="form-check-input captcha-check-input" type="checkbox" id="FieldsetCheck">
                             <label class="form-check-label" for="FieldsetCheck">
@@ -302,7 +752,7 @@
                             </label>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col_50_50">
                           <div class="recaptcha-icon">
                             <img src="images/google_recaptcha-ar21.png" height="25" width="45" alt="Recaptcha">
                           </div>
@@ -317,7 +767,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col_20">
             <div class="follow-us">
               <div class="follow-us-title">
                 <h5>Follow Us</h5>
@@ -332,6 +782,14 @@
     </div>
   </section>
   <!-- Contact Area End -->
+
+
+
+
+
+
+
+
   <!-- Footer Main -->
   <section class="footer">
     <div class="container">
@@ -391,6 +849,103 @@
     </div>
   </section>
   <!-- Footer Main End -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Main Menu Mobile -->
+<section class="footer-mobile-menu">
+  <div class="mobile-footer-inner">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <span>Services</span>
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Customization</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span>Order</span>
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund & Exchange</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span>The Company</span>
+        </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Follow Us</a></li>
+              <li><a href="#">Join us on Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        <span>Legal</span>
+        </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="#">Term & Conditions</a></li>
+              <li><a href="#">Privacy & Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Main Menu Mobile  End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Footer Bottom -->
   <section class="footer-bottom">
     <div class="container">
@@ -400,6 +955,7 @@
     </div>
   </section>
   <!-- Footer Bottom End -->
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

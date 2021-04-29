@@ -399,7 +399,7 @@ nav ul li ul li a:hover {
 
 
 
-/*.overlay {
+.overlay {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     top: 0;
@@ -407,7 +407,7 @@ nav ul li ul li a:hover {
     bottom: 0;
     right: 0;
     z-index: 99;
-}*/
+}
 .mt_60 {
     margin-top: 60px;
 }
