@@ -21,6 +21,13 @@ $('.menu-icon i').click(function () {
 
 
 $('li.nav-user i').click(function () {
+
+    /*Disable shopping drawer first*/
+    $('.shopping-cart-drawer').removeClass('overlay');
+    $('.shopping-cart-drawer-container').removeClass('right_zero');
+    $( "li.nav-shopping i" ).removeClass( "fa-times", 100 );
+    $( ".item-count").removeClass('d-none');
+
     $('.user-drawer').toggleClass('overlay');
     $('.user-drawer-container').toggleClass('right_zero');
 });
@@ -31,6 +38,12 @@ $('li.nav-user i').click(function () {
 $('li.nav-shopping i').click(function () {
     $('.shopping-cart-drawer').toggleClass('overlay');
     $('.shopping-cart-drawer-container').toggleClass('right_zero');
+
+/*Disable user drawer*/
+    $('.user-drawer').removeClass('overlay');
+    $('.user-drawer-container').removeClass('right_zero');
+
+
 });
 
 
