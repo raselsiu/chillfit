@@ -1,46 +1,12 @@
 
-/*Neue Kabel Bold
-
-font-family: neue-kabel, sans-serif;
-
-font-weight: 700;
-
-font-style: normal;
-
-
-Neue Kabel Bold Italic
-
-font-family: neue-kabel, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;
-
-
-Neue Kabel Italic
-
-font-family: neue-kabel, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Neue Kabel Regular
-
-font-family: neue-kabel, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;*/
-
+@import url("https://use.typekit.net/grk1pie.css");
 
 :root {
   --text_color_primary:#3D3D3D;
 }
 
 
-@import url("https://use.typekit.net/grk1pie.css");
+
 body{
 	height: 100vh;
 	width: 100%;
@@ -835,4 +801,55 @@ span.mobile-search-input-text {
     height: 25px;
     width: 25px;
 
+}
 /*Form validation set end*/
+
+
+
+/*Cookies Style*/
+
+.inner-cookie-bar p{
+    margin: 0;
+}
+.cookies-alart {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #45b7ac;
+    border-color: #009688;
+    padding: 12px 25px;
+}
+.inner-cookie-bar p a strong {
+    color: #011302;
+}
+.btn-close:focus {
+    outline: 0;
+    box-shadow: none;
+    opacity: 1;
+}
+section.cookie-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.inner-cookie-bar p span i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+.inner-cookie-bar p {
+    margin: 0;
+    display: inline-flex;
+}
+.inner-cookie-bar p a strong {
+    color: #011302;
+}
+.inner-cookie-bar p a {
+    color: #011302;
+    text-decoration-color:#011302; 
+}
+.btn-close {
+    opacity: 1;
+}
+/*Cookies Style End */
