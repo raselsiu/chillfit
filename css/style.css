@@ -833,6 +833,7 @@ section.cookie-bar {
     bottom: 0;
     width: 100%;
     left: 0;
+    display: none;
 }
 .inner-cookie-bar p span i {
     font-size: 25px;
@@ -853,3 +854,25 @@ section.cookie-bar {
     opacity: 1;
 }
 /*Cookies Style End */
+
+
+/*Previous / Back Button*/
+button.btn_previous_icon span i {
+    font-size: 23px;
+    color: #464646;
+    display: block;
+}
+button.btn_previous_icon {
+    padding: 0px 31px 0px 25px;
+    border: 1px solid #a7a7a7;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+button.btn_previous_icon:hover {
+    padding: 0px 31px 0px 12px;
+    transition: all 0.5s;
+}
+/*Previous / Back Button End*/ 
