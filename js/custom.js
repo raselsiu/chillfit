@@ -68,14 +68,18 @@ $('.dismiss-search img').click(function () {
   $( function() {
     $( ".menu-icon i" ).on( "click", function() {
       $( ".menu-icon i" ).toggleClass( "fa-times", 100 );
+      $( ".menu-icon i" ).toggleClass('obj_rotation0');
     });
 
   } );
+
+
 
  
   $( function() {
     $( "li.nav-shopping i" ).on( "click", function() {
       $( "li.nav-shopping i" ).toggleClass( "fa-times", 100 );
+      $( "li.nav-shopping i" ).toggleClass('obj_rotation180');
       $( ".item-count").toggleClass('d-none');
     });
     
