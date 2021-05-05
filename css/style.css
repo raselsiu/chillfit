@@ -1,5 +1,5 @@
 
-@import url("https://use.typekit.net/grk1pie.css");
+@import url("https://use.typekit.net/erz2ipp.css");
 
 :root {
   --text_color_primary:#3D3D3D;
@@ -75,8 +75,7 @@ ul.nav-menu-list {
 
 .d_n{
 
-	width: 0px;
-	margin-left: -200px;
+	margin-left: -550px;
 	transition: all 1s ease;
 }
 
@@ -116,10 +115,29 @@ ul.nav-menu-list li {
     padding-left: 45px;
     margin-top: 20px;
 }
+ul.nav-menu-list li i:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out; 
+
+}
+section.pacifier-area {
+    margin-bottom: 80px !important;
+}
+.subscribe-btn {
+    margin-top: 30px;
+}
 	
-.main-logo img {
-    height: 50px;
-    padding-top: 15px;
+.main-logo svg {
+    height: 48px;
+    padding-top: 12px;
+}
+.main-logo a svg path{
+    transition: all 0.3s ease-in-out; 
+}
+    
+.main-logo a svg:hover path {
+    fill: #fff;
+    transition: all 0.3s ease-in-out;
 }
 
 .pad_zero{
@@ -133,10 +151,18 @@ section.navbar-area {
 .menu-icon i {
     color: #D9D9D9;
     font-size: 20px;
+    transition: all 0.2s ease-in-out;
+
+}
+.menu-icon i:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    
 }
 ul.nav-menu-list li i {
     color: #D9D9D9;
     cursor: pointer;
+    transition: all 0.2s ease-in-out; 
 }
 .item-count span {
     background: #d9d9d9;
@@ -156,7 +182,7 @@ ul.nav-menu-list li i {
     padding-top: 10px;
     margin-bottom: 5px;
     color: var(--text_color_primary);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -165,30 +191,36 @@ section.contact-area {
     background-color: #fff;
 }
 .contact-inner {
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 .contact-title h5 {
     font-size: 21px;
     color: var(--text_color_primary);
-    font-weight: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
+
 .follow-us-title h5 {
     font-size: 21px;
     font-weight: normal;
+    color: var(--text_color_primary);
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 .follow-us-content i {
-    font-size: 22px;
-    color: #515151;
+    font-size: 30px;
+    color: #3D3D3D;
     padding-top: 15px;
 }
 .contact-content p {
     margin-bottom: 9px;
+    color: var(--text_color_primary);
 }
 
-.subscribe-control{
+.subscribe-control {
     border: 0;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #707070;
     border-radius: 0;
     padding: 0;
     font-size: 18px;
@@ -198,19 +230,19 @@ section.contact-area {
 }
 .contact-title span {
     color: var(--text_color_primary);
-    font-size: 14px;
+    font-size: 16px;
 }
-
 .subscribe-control:focus {
-    color: #212529;
+    color: #3D3D3D;
     background-color: transparent;
     border-color: transparent;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #707070;
     outline: 0;
     box-shadow: none;
 }
 .security-check span {
     font-size: 20px;
+    color: var(--text_color_primary);
 }
 .security-check {
     margin-top: 15px;
@@ -229,9 +261,11 @@ section.contact-area {
 	float: right;
 }
 
-.captcha-check-input{
-	border-radius: 0 !important;
+.captcha-check-input {
+    border-radius: 0 !important;
+    color: var(--text_color_primary);
 }
+
 .form-check-input:checked {
     background-color: #434343;
     border-color: #434343;
@@ -263,6 +297,7 @@ section.footer {
     color: #fff;
     font-size: 18px;
     font-style: normal;
+    font-weight: bold;
 }
 
 ul.footer-list{
@@ -273,10 +308,11 @@ ul.footer-list{
 ul.footer-list li{
 
 }
-ul.footer-list li a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
+ul.footer-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }
 .inner-footer {
     padding: 45px 0px;
@@ -409,8 +445,8 @@ nav ul li ul li a:hover {
 
     transition: all 1s ease;
 }
-.user-inner-drawer{
-        padding: 30px;
+.user-inner-drawer {
+    padding: 40px;
 }
 .reset-pass-inner{
         padding: 30px;
@@ -422,8 +458,9 @@ nav ul li ul li a:hover {
 }
 
 .login-title h5 {
-    padding: 15px 0;
-    font-size: 22px;
+    padding: 15px 0 15px;
+    font-size: 25px;
+    margin: 0;
 }
 .cmn-control{
 	border-radius: 0;
@@ -441,6 +478,8 @@ nav ul li ul li a:hover {
 }
 .forget_p a{
 	color: #3D3D3D;
+    float: right;
+    font-size: 18px;
 }
 .btn-common {
     border: 0;
@@ -459,7 +498,7 @@ nav ul li ul li a:hover {
 	color: #fff;
 }
 .no-acc-title span {
-    font-size: 13px;
+    font-size: 14px;
 }
 .conv-list {
     padding: 0px 0px 15px 0;
@@ -471,18 +510,18 @@ nav ul li ul li a:hover {
 }
 .conv-list ul li {
     padding-top: 25px;
-    font-size: 13px;
+    font-size: 14px;
 }
 .conv-list ul li a{
 	text-decoration: none;
 }
 
-
 .read-privacy span {
-    font-size: 12px;
+    font-size: 14px;
 }
 .create-now-btn {
     margin-bottom: 50px;
+    margin-top: 5px;
 }
 /*User-Drawer End*/
 
@@ -506,8 +545,9 @@ nav ul li ul li a:hover {
 
     transition: all 1s ease;
 }
-.shopping-cart-inner-drawer{
-    padding: 30px;
+
+.shopping-cart-inner-drawer {
+    padding: 40px;
 }
 /*Shopping cart list drawer End*/
 
@@ -612,9 +652,10 @@ input.search-control:focus {
     background-color: #ededed;
     transition: all 0.5s ease;
 }
-.shopping-cart-sidebar ul li a{
+.shopping-cart-sidebar ul li a {
     text-decoration: none;
     color: #3D3D3D;
+    padding-left: 5px;
 }
 .shopping-cart-sidebar ul li {
     padding: 10px;
@@ -876,3 +917,48 @@ button.btn_previous_icon:hover {
     transition: all 0.5s;
 }
 /*Previous / Back Button End*/ 
+
+
+.obj_rotation180{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+.obj_rotation0{
+    transform: rotate(0deg) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+
+.fixed-position {
+    position: fixed;
+ }
+
+.location-previous button {
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    text-decoration-color: #3D3D3D;
+    margin-left: 33px;
+    color: #3D3D3D;
+    padding-top: 15px;
+    position: absolute;
+}
+
+.col.forget_p a {
+    float: right;
+}
+
+.product-content span {
+    color: var(--text_color_primary);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.no-acc-title h5 {
+    font-size: 25px;
+}
+
+.user-inner-drawer label {
+    font-size: 18px;
+}
