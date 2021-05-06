@@ -13,6 +13,20 @@
 	.footer{
 		display: none;
 	}
+    .accord-menu-btn:not(.collapsed) {
+    font-size: 20px;
+}
+.submenu-body ul li a {
+    font-size: 18px;
+    padding: 3px 14px;
+}
+.submenu-body ul li {
+    margin-left: 30px;
+}
+.accord-menu-btn {
+    font-size: 20px;
+    padding: 10px !important;
+}
 }
 
 
@@ -208,6 +222,11 @@ nav ul {
 */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .main-logo svg {
+    height: 45px;
+    padding-top: 18px;
+    margin-top: -71px;
+}
 
 	.home-video,li.nav-user,li.nav-search,.footer,.contact-area-left,.follow-us{
 		display: none;
@@ -448,6 +467,16 @@ nav ul {
 		padding-right: 70px !important;
 		padding-left: 70px !important;
 	}
+    .accord-menu-btn {
+    font-size: 25px;
+    padding: 10px !important;
+}
+.submenu-body ul li a {
+    color: #000 !important;
+    font-size: 22px;
+    padding: 3px 14px;
+    transition: none;
+}
 }
 
 @media(min-width:1024px) {
@@ -455,6 +484,9 @@ nav ul {
 		padding-right: 100px !important;
 		padding-left: 100px !important;
 	}
+    .ver-img img {
+    width: 95%;
+}
 }
 
 @media(min-width:1440px) {
@@ -462,6 +494,12 @@ nav ul {
 		padding-right: 150px !important;
 		padding-left: 150px !important;
 	}
+    nav ul li a {
+    font-size: 25px;
+    }
+    nav ul li ul li a {
+        font-size: 20px;
+    }
 }
 
 @media(min-width:1920px) {
@@ -505,6 +543,17 @@ nav ul {
 
 
 @media(min-width:1920px) {
+
+.accord-menu-btn {
+    font-size: 32px;
+    padding: 10px !important;
+}
+.submenu-body ul li a {
+    color: #000 !important;
+    font-size: 28px;
+    padding: 3px 14px;
+    transition: none;
+}
 
 .location-previous button {
     margin-left: 55px;
