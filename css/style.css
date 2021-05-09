@@ -128,8 +128,8 @@ section.pacifier-area {
 }
 	
 .main-logo svg {
-    height: 48px;
-    padding-top: 12px;
+    height: 45px;
+    padding-top: 15px;
 }
 .main-logo a svg path{
     transition: all 0.3s ease-in-out; 
